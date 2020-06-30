@@ -21,4 +21,5 @@ def won?(board)
     if combination.all? {|i|i=="X"} || combination.all? {|i|i=="O"}
       return combination
     end
+  end
 end
