@@ -20,4 +20,6 @@ def won?(board)
   WIN_COMBINATIONS.each do |combination|
     if board(combination[0]) == "X" && board(combination[1]) == "X" && board(combination[2]) == "X"
       return combination
+    elsif
+    
 end
